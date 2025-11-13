@@ -30,7 +30,7 @@ A fully-featured **real-time private chat system** built using:
 cd backend
 python -m venv venv
 
-<<<<<<< HEAD
+]
 
 ### **2. Activate Virtualenv**
 
