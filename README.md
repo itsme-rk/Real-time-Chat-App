@@ -229,11 +229,4 @@ ws://127.0.0.1:8000/ws/chat/<room_id>/
 | `read`     | Message marked as read |
 
 
-Events:
 
-=
-Type	Description
-message	New message
-typing	User typing
-read	Message marked read
-=
