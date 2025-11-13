@@ -60,7 +60,7 @@ netstat -ano | findstr 6379
 
 
 venv\Scripts\python.exe -m daphne -p 8000 chat_backend.asgi:application
-=======
+
 2. Activate Venv
 venv\Scripts\activate
 
@@ -80,7 +80,7 @@ venv\Scripts\python.exe -m daphne -p 8000 chat_backend.asgi:application
 
 
 Backend runs at:
->>>>>>> 4bbb98e862e8c6a6d008917e2827da6a58931e2d
+
 
 
 Backend URL:
@@ -92,13 +92,10 @@ Backend URL:
 cd frontend
 npm install
 npm run dev
-<<<<<<< HEAD
-=======
+
 
 
 Frontend runs at:
->>>>>>> 4bbb98e862e8c6a6d008917e2827da6a58931e2d
-
 Frontend URL:
 👉 **[http://localhost:5173/](http://localhost:5173/)**
 
@@ -150,7 +147,6 @@ Each room displays unread messages for the active user.
 
 Chat list shows last message + timestamp.
 
-<<<<<<< HEAD
 ### 👥 Multi-user Mode
 
 Switch between **any user** without login (simulation).
@@ -191,7 +187,7 @@ Channels for WebSockets
 Redis for WS layers
 
 Clean serializers & views
->>>>>>> 4bbb98e862e8c6a6d008917e2827da6a58931e2d
+
 
 GET /api/users/
 
@@ -223,7 +219,6 @@ WebSocket Endpoint:
 
 ws://127.0.0.1:8000/ws/chat/<room_id>/
 
-<<<<<<< HEAD
 
 ### Events
 
@@ -232,16 +227,13 @@ ws://127.0.0.1:8000/ws/chat/<room_id>/
 | `message`  | New chat message       |
 | `typing`   | User typing indicator  |
 | `read`     | Message marked as read |
-=======
->>>>>>> 4bbb98e862e8c6a6d008917e2827da6a58931e2d
+
 
 Events:
 
-<<<<<<< HEAD
-
-=======
+=
 Type	Description
 message	New message
 typing	User typing
 read	Message marked read
->>>>>>> 4bbb98e862e8c6a6d008917e2827da6a58931e2d
+=
